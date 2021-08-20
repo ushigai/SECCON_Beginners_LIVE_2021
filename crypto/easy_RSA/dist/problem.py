@@ -6,6 +6,7 @@ p, q = getPrime(512), getPrime(512)
 n = p * q
 e = 3
 
+assert flag.bit_length() == 343
 assert n < flag ** e
 
 print("c =", pow(flag, e, n))
