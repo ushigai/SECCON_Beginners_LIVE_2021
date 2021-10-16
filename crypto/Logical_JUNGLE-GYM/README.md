@@ -5,4 +5,4 @@ We have an innovative jungle-gym!
 ctf4b{[\x20-\x7e]+]}
 
 ## 想定難易度
-Easy ( ~ Medium)
+Easy
