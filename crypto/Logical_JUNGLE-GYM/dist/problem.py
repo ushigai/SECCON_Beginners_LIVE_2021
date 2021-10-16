@@ -19,7 +19,7 @@ def culc2(X, Y):
         res |= z << i
     return res
 
-def culc2(X, Y):
+def culc3(X, Y):
     res = 0
     for i in range(max(X.bit_length(), Y.bit_length())):
         x, y = (X >> i) & 1, (Y >> i) & 1
